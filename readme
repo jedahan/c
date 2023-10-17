@@ -1,0 +1,9 @@
+
+    cd my-project
+    npm run lint
+
+even though there is a .eslintrc.js in my-project, eslint looks for a config the folder above
+
+this happens regardless if this is in a git repo or not
+
+if you `rm eslint.config.js`, it is fine
